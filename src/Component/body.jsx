@@ -39,11 +39,11 @@ function Body() {
                 </div>
             </div>
         </section> */}
-      <section className="space-y-4 bg-fuchsia-600">
+      <section className="space-y-4 bg-white mt-15 mb-15">
         {events.map((event) => (
           <div
             key={event.id}
-            className="h-25 bg-cyan-700 ml-25 mr-25 rounded-2xl flex justify-between items-center p-4">
+            className="h-25 hover:scale-105 transition-transform duration-400 bg-[#4d6dff] ml-25 mr-25 rounded-2xl flex justify-between items-center p-4 text-amber-50">
             <img src={Event} alt="events logo" className="h-17 w-17" />
             <div>
               <h1 className="font-bold">{event.place}</h1>
