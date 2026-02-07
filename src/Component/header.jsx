@@ -1,7 +1,7 @@
 import Logo from "../assets/logoe.png";
 function Header() {
   return (
-    <header className="bg-[#0d3e38] text-amber-300 h-20 ">
+    <header className="bg-[#0d3e38] text-amber-300 h-20 fixed top-0 w-full">
       <nav className="flex justify-between ml-5 mr-5">
         <img src={Logo} alt="logo" className=" h-21 w-19 object-contain"></img>
         <input
