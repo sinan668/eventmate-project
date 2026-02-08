@@ -1,7 +1,7 @@
 
 function LoginPage(){
     return (
-    <section className="min-h-screen bg-gradient-to-br from-amber-50 to-amber-100 flex items-center justify-center px-4">
+    <section className="min-h-screen from-amber-50 to-amber-100 flex items-center justify-center px-4">
   
         <div className="bg-white w-full max-w-sm p-8 rounded-2xl shadow-xl">
     
