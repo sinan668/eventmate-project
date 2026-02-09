@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function LoginPage(){
     return (
@@ -32,9 +33,7 @@ function LoginPage(){
              </div>
                 <p className="text-sm text-center mt-6 text-gray-600">
                      Don't have an account?{" "}
-                     <a href="/register" className="text-blue-500 font-medium hover:underline">
-                     Register
-                    </a>
+                     <Link to={"/register"} className="text-blue-500 font-medium hover:underline">Register</Link>
                 </p>
          </div>
 </section>
