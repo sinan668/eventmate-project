@@ -1,6 +1,6 @@
-import Header from "../Component/header";
-import Footer from "../Component/footer";
-import Body from "../Component/body";
+import Header from "../components/home/header";
+import Footer from "../components/home/footer";
+import Body from "../components/home/body";
 function HomePage() {
     return(
         <>

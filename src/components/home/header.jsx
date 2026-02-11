@@ -1,4 +1,4 @@
-import Logo from "../assets/logoe.png";
+import Logo from "../../assets/logoe.png";
 function Header() {
   return (
     <header className="bg-[#0d3e38] text-amber-300 h-20 fixed top-0 w-full">

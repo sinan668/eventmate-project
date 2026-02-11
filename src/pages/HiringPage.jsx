@@ -1,4 +1,4 @@
-import Hiring from "../Component/hiring";
+import Hiring from "../components/hiriing-page/hiring";
 function HiringPage() {
     return(
         <>
