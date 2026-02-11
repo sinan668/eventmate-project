@@ -105,7 +105,7 @@ function Register (){
 
               <input
                 type="text"
-                placeholder="Job Location"
+                placeholder="Location"
                 className="w-full px-3 py-2 rounded-lg border border-gray-300 outline-none"
               />
             </div>
