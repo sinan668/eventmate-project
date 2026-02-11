@@ -1,4 +1,4 @@
-import Register from "../components/login-page/register";
+import Register from "../components/login-page/register.jsx";
 
 function RegisterPage(){
     return(

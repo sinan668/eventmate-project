@@ -1,7 +1,7 @@
-import Event from "../assets/eventlogo.png";
+import Event from "../../assets/eventlogo.png";
 const events = [
   {
-    id: 1,
+    id: 1, 
     place: "Kozhikode",
     date: "19-05-2026",
   },
