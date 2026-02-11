@@ -44,7 +44,7 @@ function Register (){
               <input
                 type="radio"
                 name="role"
-                value="employ"
+                value="employee"
                 onChange={(e) => setRole(e.target.value)}
               />
               Employ
@@ -54,7 +54,7 @@ function Register (){
               <input
                 type="radio"
                 name="role"
-                value="provider"
+                value="employer"
                 onChange={(e) => setRole(e.target.value)}
               />
               Work Provider
@@ -62,7 +62,7 @@ function Register (){
           </div>
 
           {/* Employ Fields */}
-          {role === "employ" && (
+          {role === "employee" && (
             <div className="bg-amber-50 p-4 rounded-xl space-y-3 mt-4">
               <h4 className="text-sm font-semibold">Enter Your Details</h4>
 
@@ -93,7 +93,7 @@ function Register (){
           )}
 
           {/* Provider Fields */}
-          {role === "provider" && (
+          {role === "employer" && (
             <div className="bg-amber-50 p-4 rounded-xl space-y-3 mt-4">
               <h4 className="text-sm font-semibold">Enter Job Details</h4>
 

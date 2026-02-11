@@ -1,4 +1,5 @@
 import Event from "../../assets/eventlogo.png";
+import { Link } from "react-router-dom";
 
 const events = [
   { id: 1, place: "Kozhikode", date: "19-05-2026" },
@@ -28,10 +29,11 @@ function Body() {
               </h1>
               <p className="text-blue-200 text-sm">{event.date}</p>
             </div>
-
-            <button className=" sm:block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition">
-              View
-            </button>
+            <Link to={`/hiring/${event.id}`}>
+              <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition">
+                View
+              </button>
+            </Link>
           </div>
         ))}
       </div>
