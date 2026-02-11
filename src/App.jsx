@@ -7,9 +7,14 @@ import Booking from "./pages/Bookingpage"
 function App() {
  return(
  <>
+    <Routes>
+          <Route path='/login' element={<Login/>} />
+          <Route path='/booking' element= {<Booking/>}/>
+          <Route path='/register' element={<RegisterPage/>}/>
+          <Route path="/hiring" element={<HiringPage/>}/>
+    </Routes>
+ 
 
- {/* <HomePage/> */}
- <HiringPage/>
 
  </>
  )
