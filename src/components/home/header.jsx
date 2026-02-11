@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logoe.png";
 function Header() {
   return (
@@ -16,9 +17,10 @@ function Header() {
           <option value="Calicut">Calicut</option>
         </select>
 
+          <Link to={'/login'} >
         <button className="bg-white mt-4 text-black rounded-md w-15 h-10">
-          sign
-        </button>
+          sing In
+        </button></Link>
         </div>
       </nav>
     </header>
