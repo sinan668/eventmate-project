@@ -9,7 +9,7 @@ function Register (){
     return(
         <section className="min-h-screen from-amber-50 to-orange-100 flex items-center justify-center px-4">
 
-      <div className="bg-white w-full max-w-md p-8 rounded-2xl shadow-xl">
+      <div className="bg-white w-full max-w-sm p-8 rounded-2xl shadow-xl">
 
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
           Register
