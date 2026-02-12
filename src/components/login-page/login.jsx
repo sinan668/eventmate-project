@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 function LoginPage(){
+   const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    navigate("/");
+  };
     return (
     <section className="min-h-screen from-amber-50 to-amber-100 flex items-center justify-center px-4">
   
@@ -9,13 +16,13 @@ function LoginPage(){
              <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
               Login
             </h2>
-            <form className="flex flex-col gap-4">
+            <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
               <input
-                type="text"
-                placeholder="Username"
-                required
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
-              />
+            type="email"
+            placeholder="Email"
+            required
+            className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-400 outline-none"
+          />
               <input
                 type="password"
                 placeholder="Password"
