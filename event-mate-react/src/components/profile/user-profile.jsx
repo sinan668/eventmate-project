@@ -1,4 +1,4 @@
-import profile from "../assets/profiles.png"
+import profile from "../../assets/profiles.png"
 
 function Userprofile() {
   return (

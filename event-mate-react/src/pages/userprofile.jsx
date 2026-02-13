@@ -1,9 +1,9 @@
-import Userprofile from "../components/user-profile"
+import Userprofile from "../components/profile/user-profile"
 
 function Userprofilepage(){
     return(
     <>
-     <Agencies  />
+     <Userprofile  />
     </>
         
     )

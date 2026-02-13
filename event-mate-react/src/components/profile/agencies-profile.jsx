@@ -1,8 +1,8 @@
 
-import profile from "../assets/s.png";
+import profile from "../../assets/s.png";
 
 function Agencies() {
-  ` `
+
   return (
     <div className="min-h-screen bg-gray-100">
 
