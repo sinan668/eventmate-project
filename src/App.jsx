@@ -4,8 +4,8 @@ import Agencies from "./pages/agencies"
 function App() {
 
   return (
-    <>
-     <Agencies />
+     <>
+    <Agencies />
      <Userprofile />
     </>
   )
