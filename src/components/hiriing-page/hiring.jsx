@@ -1,4 +1,5 @@
 function Hiring() {
+
     return(
     <>
     <section className="min-h-screen flex items-center justify-center bg-gray-100">

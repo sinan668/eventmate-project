@@ -21,8 +21,7 @@ function Header() {
         <div className="flex justify-center md:justify-end gap-3">
           <select
             className="h-10 px-2 rounded-md text-black"
-            name="Location"
-          >
+            name="Location">
             <option value="palakkad">Palakkad</option>
             <option value="kannur">Kannur</option>
             <option value="calicut">Calicut</option>

@@ -38,11 +38,11 @@ function Register() {
 
       const data = await res.json();
 
-      if (!res.ok) {
-        console.error(data);
-        alert(data.message);
-        return;
-      }
+      // if (!res.ok) {
+      //   console.error(data);
+      //   alert(data.message);
+      //   return;
+      // }
 
     alert("Registration successful");
      navigate("/")
